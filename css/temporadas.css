@@ -1,0 +1,153 @@
+/*orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+
+body {
+    background-image: url(../img/temporadas.png) ;
+    background-size: cover;
+    background-position: center;   
+    background-attachment: fixed;
+    color: rgba(255, 255, 255, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 1% 1%;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+.nav {
+    margin-left: auto;
+    display: flex;
+}
+
+.nav a {
+    margin: 0.5%;
+    font-size: 77%;
+}
+
+.logo {
+    width: 36%;
+    padding: 0% 3%
+}
+
+.inicio {
+    background-color: rgba(240, 248, 255, 0);
+    text-align: left;
+    padding: 5%;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.inicio p {
+    font-family: "sans-serif", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 30%;
+}
+
+#temporada {
+    width: 90%;
+    margin: auto;
+    padding: 0px 0;
+    text-align: center;
+}
+
+#temporada h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.temporada {
+    display: inline-block;
+    width: 20%;
+    height: 260px;
+    margin: 12px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border-radius: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.temporada img {
+    width: 100%;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.temporada h2 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: "Orbitron", sans-serif;
+}
+
+.temporada h3 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.temporada p {
+    font-size: 11.5px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.temporada1 {
+    display: inline-block;
+    width: 20%;
+    height: 260px;
+    margin: 12px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border-radius: 10px;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 37%;
+}
+
+.temporada1 img {
+    width: 100%;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.temporada1 h2 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: "Orbitron", sans-serif;
+}
+
+.temporada1 h3 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.temporada1 p {
+    font-size: 11.5px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 1px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    font-size: 12px;
+}

@@ -1,0 +1,112 @@
+/*orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+body {
+    background-image: url(../img/fondo-contacto.png) ;
+    background-size: cover;
+    background-position: center;   
+    background-attachment: fixed;
+    color: rgba(255, 255, 255, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 1% 1%;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+.nav {
+    margin-left: auto;
+    display: flex;
+}
+
+.nav a {
+    margin: 0.5%;
+    font-size: 77%;
+}
+
+.logo {
+    width: 36%;
+    padding: 0% 3%
+}
+
+.contacto {
+    display: flex;
+    width: 85%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.contacto1 {
+    padding: 30px;
+    margin-right: 10%;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+}
+.contacto1 h1{
+    font-family: "Orbitron", sans-serif;
+}
+
+.contacto1 h2{
+    font-family: "Orbitron", sans-serif;
+}
+
+.formulario h2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.contacto1 p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.formulario {
+    width: 30%;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+}
+
+.rectangulo {
+    margin: 12px 0;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.descripcion {
+    height: 70px;
+    margin: 12px 0;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.enviar {
+    width: 70px;
+    margin-left: auto;
+    padding: 7px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 72px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    font-size: 12px;
+    margin-top: px;
+}
